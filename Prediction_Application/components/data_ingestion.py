@@ -9,7 +9,7 @@ import pandas as pd
 import numpy as np
 import os,sys
 import zipfile
-from six.moves import urllib
+# from six.moves import urllib
 
 
 
@@ -45,7 +45,7 @@ class DataIngestion:
             tgz_file_path = os.path.join(tgz_download_dir,file_name)
 
             logging.info(f"Downloading file from: [{download_url}] into : [{tgz_file_path}]")
-            urllib.request.urlretrieve(download_url,tgz_file_path)
+            # urllib.request.urlretrieve(download_url,tgz_file_path)
             logging.info(f"File: [{tgz_file_path}] has been downloaded successfully")
 
             return tgz_file_path

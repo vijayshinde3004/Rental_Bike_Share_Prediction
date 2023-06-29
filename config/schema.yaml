@@ -1,0 +1,41 @@
+SampleFileName : Rental_Bike_Share_Data_20180101_120000.csv
+LengthOfDateStampInFile : 8
+LengthOfTimeStampInFile : 6
+NumberofColumns : 15
+Columns : 
+  dteday  : datetime
+  mnth : int
+  yr  : int
+  hr	  : int
+  season : int
+  weekday : int
+  holiday : int
+  workingday	 : int
+  temp : float
+  atemp : float
+  windspeed : float
+  hum : float
+  casual : int
+  registered : int
+  weathersit  : int
+  
+target_column: cnt
+
+date_columns:
+  - dteday
+  - yr
+  - mnth
+  - hr
+
+numerical_columns:
+  - temp
+  - windspeed
+  - hum
+  
+categorical_columns:
+  - season
+  - weekday
+  - holiday
+  - workingday
+  - weathersit  
+  
