@@ -55,3 +55,14 @@ NUMERICAL_COLUMN_KEY = "numerical_columns"
 CATEGORICAL_COLUMN_KEY = "categorical_columns"
 TARGET_COLUMN_KEY = "target_column"
 PIKLE_FOLDER_NAME_KEY = "prediction_files"
+
+
+# Model Training related variables
+MODEL_TRAINER_CONFIG_KEY = "model_trainer_config"
+MODEL_TRAINER_ARTIFACT_DIR = "model_training"
+MODEL_TRAINER_TRAINED_MODEL_DIR = "trained_model_dir"
+MODEL_TRAINER_TRAINED_MODEL_FILE_NAME_KEY = "model_file_name"
+
+# Prediction Related variables
+PREDICTION_DATA_SAVING_FOLDER_KEY = "Prediction_Batch_Files"
+APP_SECRET_KEY = "any random string"
